@@ -1,30 +1,24 @@
+# Remote Access Trojan (RAT) — Security Warning
 
-order of operations
+> **This repository contains a Remote Access Trojan (RAT). Do not download or run it on a device unless you own that device and are conducting an explicitly authorized security assessment.**
 
+## What this project is
 
+A Remote Access Trojan is software that can allow a remote operator to access or control a computer. Depending on its implementation, that access may include viewing the screen, using a webcam, or opening a command interface.
 
-Main PC: **python rat\_ui.py --port 5555** → window listening
+This project is identified as a RAT. It is **not** a normal remote-support application, and it should not be presented as harmless software.
 
+## Safety notice
 
+- Do not install it on someone else's computer.
+- Do not use it to access a device or account without the owner's informed permission.
+- Do not share or run builds from this repository as if they were ordinary utilities.
+- If you find this software on a device unexpectedly, disconnect that device from the network and use trusted security software or a qualified incident responder to investigate.
 
-Victim: save **agent.py**, then
+## Authorized research only
 
-**python agent.py <MAIN\_PC\_IP>** 5555
+Any analysis must be performed in an isolated lab on systems you own or are explicitly authorized to test. Make sure all participants understand what the software can do and how to stop it.
 
+## Repository status
 
-
-Main UI status → session active → hit Screen ON / Webcam ON / shell
-
-
-
-If **victim** CMD shows an error after **python agent.py** ..., paste the full traceback.
-
-
-
-**MOVE IT**
-move /Y %USERPROFILE%\\Downloads\\rat\_ui.py %USERPROFILE%\\rat\_ui.py
-
-
-
-\--port 5555
-
+This repository is published for identification and security-awareness purposes. The term **Remote Access Trojan (RAT)** is used deliberately so visitors can understand the nature of the software before interacting with it.
